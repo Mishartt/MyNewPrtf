@@ -1,0 +1,33 @@
+.MyBtn{
+        transition: 0.3s;
+        margin-top: 35px;
+        width: 187px;
+        height: 48px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #0fb;
+        border-radius: 3em;
+        color: black;
+        font-size: 1em;
+        padding-top: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+        box-shadow: 0 0.6rem 1.4rem rgb(0 0 0 / 25%);
+
+}
+
+
+.MyBtn:hover{
+                
+    transition: 0.3s;
+    background-color: rgba(0, 255, 187, 0.719);
+  }
+
+
+.MyBtn  a{
+    color: black;
+
+}
+
+

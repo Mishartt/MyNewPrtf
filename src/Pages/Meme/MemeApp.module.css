@@ -1,0 +1,79 @@
+@import url(https://fonts.googleapis.com/css?family=Outfit:100,200,300,regular,500,600,700,800,900);
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+  background-color: rgb(25, 27, 28);;
+  font-family: 'Outfit';
+}
+
+.MemeApp{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.memeBox{
+   
+    width: 500px;
+    border: white solid 1px;
+    background-color: white;
+}
+
+.meme{
+    width: 100%
+}
+
+
+.header{
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background-color: white;
+    display: none;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(25, 27, 28);;
+    color: white;
+}
+
+.home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+img{
+    margin: 5px 0;
+    
+}
+
+
+@media (max-width:700px){
+    
+
+    .memeBox{
+        width: 95%;
+    }
+}

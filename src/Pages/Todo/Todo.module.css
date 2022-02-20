@@ -1,0 +1,92 @@
+@import url(https://fonts.googleapis.com/css?family=Architects+Daughter:regular);
+
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Architects Daughter', cursive;   
+}
+
+
+
+.todoBox{
+    min-width: 55%;
+    min-height: 35px;
+}
+
+.inp{
+    width: 100%;
+    display: flex;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.inpt{
+    width: 95%;
+    height: 35px;
+    padding-left: 10%;
+    background-color: rgb(25, 27, 28);
+    border: #0fb solid 3px;
+    color: #0fb;
+    font-size: large;
+    font-family: 'Architects Daughter', cursive;
+}
+
+  
+
+
+.addBtn {
+    width: 5%;
+    height: 35px;
+    border: #0fb solid 3px;
+    background-color: rgb(25, 27, 28);
+    font-size: 1.7em;
+    text-align: center;
+    border-left: 0;
+    color: #0fb;
+    font-family: 'Outfit';
+}
+
+
+.todo{
+    font-weight:lighter;
+    width: 100%;
+    min-height: 35px;
+    border: #0fb solid 3px ;
+    border-top: 0px;
+    display: flex;
+    font-size: 1.3em;
+    padding-left: 3%;
+    padding-right: 2%;
+    color: #0fb;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.numb{
+    margin-right: 12px;
+}
+
+.nth{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 1.4em;
+}
+
+
+.done{
+    text-decoration: line-through;
+    color: rgba(0, 255, 187, 0.205);
+}
+
+
+@media (max-width:767px){
+    .todoBox{
+        width: 80%;
+       
+    }
+}
