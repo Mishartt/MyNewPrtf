@@ -8,7 +8,7 @@ import {
   Outlet
 } from "react-router-dom";
 import AboutMe from "./AboutMe";
-import WeatherApp from "../Pages/Weather/WeatherApp";
+// import WeatherApp from "../Pages/Weather/WeatherApp";
 import LazyShow from "./LazyShow";
 
 const Portfolio = () => {
@@ -25,12 +25,11 @@ const Portfolio = () => {
         
         <div className="works__wrapper">
             <div  id="i1" className="item1 Qanim-items">
-              <Link to="/weatherApp">
+             <a href="http://mishart.site/smth/">
                 <div className="description">
-
-                     <h1>Weather forecast</h1>
+                     <h1>CryptoApp</h1>
                 </div>
-              </Link>
+              </a>
             </div>
        
            

@@ -390,7 +390,7 @@ header{
 
 
 #i1{
-  background-image: url(./assets/img/pr/Screenshot_3.png);
+  background-image: url(./assets/cryptoapp.png);
   background-size: 105%;
   
 }
@@ -902,7 +902,7 @@ header a:hover{
 @media (max-width:767px){
   .container{
       width: 100%;
-    
+      
 
       
   }
@@ -967,13 +967,11 @@ header a:hover{
   .hero-wrapper{
       margin-top: 15vh;
       width: 90%;
-    
-  
-      
-
      
+  }
 
-     
+  .Contact__form{
+    width: 100%;
   }
 
  .pht{

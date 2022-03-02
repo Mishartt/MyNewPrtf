@@ -6,7 +6,7 @@ import HomePage from './Components/HomePage';
 import AboutMe from './Components/AboutMe';
 import Skills from './Components/Skills';
 import Portfolio from './Components/Portfolio';
-import WeatherApp from './Pages/Weather/WeatherApp';
+// import WeatherApp from './Pages/Weather/WeatherApp';
 import Footer from './Components/Footer';
 import locationImg from './assets/img/location.svg';
 import mailImg from './assets/img/mail.svg';

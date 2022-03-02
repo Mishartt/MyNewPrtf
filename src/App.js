@@ -1,5 +1,5 @@
 import './App.css';
-import WeatherApp from './Pages/Weather/WeatherApp';
+// import WeatherApp from './Pages/Weather/WeatherApp';
 
 import {
   BrowserRouter,
@@ -20,7 +20,7 @@ function App() {
     <div className="App">                
           <Routes>
               <Route path ="/" element={ <MyPortfolio/>}/>
-              <Route path="/weatherApp" element={<WeatherApp/>} />
+              {/* <Route path="/weatherApp" element={<WeatherApp/>} /> */}
               <Route path="/Timer" element={<Timer/>}/>
               <Route path='/Meme' element={<MemeApp/>}/>
               <Route path='/Todo' element={<TodoApp/>}/>
