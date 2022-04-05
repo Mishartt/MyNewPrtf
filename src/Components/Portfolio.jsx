@@ -18,7 +18,7 @@ const Portfolio = () => {
         <div id="Potfolio" className="portfolio section" >
           {/* <LazyShow> */}
         <div className="title">
-          <p>My Project &nbsp;</p><hr align="right" width="45" size="5" color="#0fb" />
+          <p className="t">My Projects &nbsp;</p><hr align="right" width="45" size="5" color="#0fb" />
         </div>
         {/* </LazyShow> */}
         {/* <LazyShow> */}
@@ -34,12 +34,11 @@ const Portfolio = () => {
        
            
             <div id="i2" className="item1 Qanim-items">
-           <Link to={'/Timer'}>
+              <a href="http://mishart.site/game">
                <div className="description">
                   
-                    <h1>Timer</h1>
-               </div>
-            </Link>
+                    <h1>Game</h1>
+               </div></a>
            </div>
           
 

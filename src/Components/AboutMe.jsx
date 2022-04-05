@@ -13,7 +13,7 @@ const AboutMe = ({cv}) => {
         <div id="About" className="about__me section">
             <LazyShow>
         <div className="title Qanim-items">
-            <p>Who I am &nbsp;</p><hr align="right" width="45" size="5" color="#0fb" />
+            <p className="t">Who I am &nbsp;</p><hr align="right" width="45" size="5" color="#0fb" />
           </div>
             </LazyShow>
           <div className="inform__about__me">

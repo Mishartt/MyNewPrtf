@@ -8,7 +8,7 @@ const Skills = () => {
              <LazyShow>
         <div className="title Qanim-items">
            
-            <p>My Skills  &nbsp;</p><hr align="right" width="45" size="5" color="#0fb" margin-left="100px" />
+            <p  className="t">My Skills  &nbsp;</p><hr align="right" width="45" size="5" color="#0fb" margin-left="100px" />
            
           </div>
             </LazyShow>

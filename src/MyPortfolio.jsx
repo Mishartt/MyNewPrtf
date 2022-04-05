@@ -51,8 +51,9 @@ function MyPortfolio() {
           <LazyShow>
           <Portfolio/>
           </LazyShow>
-          <ContactMe mailImg={mailImg} locationImg={locationImg} phoneImg={phoneImg}/>
+          <ContactMe mailImg={mailImg} locationImg={locationImg} phoneImg={phoneImg} />
           </main>
+
           <Footer/>
           
     </div>  
